@@ -1,0 +1,731 @@
+{
+  "exported_at": "2026-05-13T03:51:02.140684",
+  "version": "1.0",
+  "data": {
+    "tasks": [
+      {
+        "id": "6f5584e8-5018-4f66-b190-cc9793fddbe8",
+        "content": "我要学习机器学习的所有算法",
+        "deadline": "",
+        "estimated_hours": 1.0,
+        "priority": "medium",
+        "scenario": "general",
+        "status": "completed",
+        "parent_id": null,
+        "created_at": "2026-05-09T03:20:41.750266",
+        "updated_at": "2026-05-09T03:20:59.476189",
+        "completed_at": "2026-05-09T03:20:59.476189",
+        "recurring_task_id": null,
+        "template_id": null
+      },
+      {
+        "id": "296a1021-0aa1-4ff2-9b07-e5b4e27d71fd",
+        "content": "我要学习深度学习",
+        "deadline": "",
+        "estimated_hours": 1.0,
+        "priority": "medium",
+        "scenario": "general",
+        "status": "completed",
+        "parent_id": null,
+        "created_at": "2026-05-09T03:23:44.494276",
+        "updated_at": "2026-05-09T03:23:50.972282",
+        "completed_at": "2026-05-09T03:23:50.972282",
+        "recurring_task_id": null,
+        "template_id": null
+      },
+      {
+        "id": "97390d79-1e8c-43c6-9eaf-2a594b6abab4",
+        "content": "紧急！马上处理客户投诉",
+        "deadline": "",
+        "estimated_hours": 1.0,
+        "priority": "urgent",
+        "scenario": "work",
+        "status": "completed",
+        "parent_id": null,
+        "created_at": "2026-05-09T04:09:23.221345",
+        "updated_at": "2026-05-09T04:21:34.102030",
+        "completed_at": "2026-05-09T04:21:34.102030",
+        "recurring_task_id": null,
+        "template_id": null
+      },
+      {
+        "id": "ecb5edee-c3b5-4eec-9f71-457a76f667cd",
+        "content": "今天我要完成随机森林算法的各公式解析",
+        "deadline": "2026-05-10T18:00:00",
+        "estimated_hours": 1.0,
+        "priority": "high",
+        "scenario": "study",
+        "status": "completed",
+        "parent_id": null,
+        "created_at": "2026-05-09T04:12:00.591212",
+        "updated_at": "2026-05-09T04:21:38.015507",
+        "completed_at": "2026-05-09T04:21:38.015507",
+        "recurring_task_id": null,
+        "template_id": null
+      },
+      {
+        "id": "14b49ab8-7ec1-40ec-a59f-b53a33bb7e7b",
+        "content": "我要学习机器学习，大概三个小时",
+        "deadline": "",
+        "estimated_hours": 3.0,
+        "priority": "medium",
+        "scenario": "study",
+        "status": "completed",
+        "parent_id": null,
+        "created_at": "2026-05-09T04:20:36.725630",
+        "updated_at": "2026-05-12T03:45:29.679830",
+        "completed_at": "2026-05-12T03:45:29.679830",
+        "recurring_task_id": null,
+        "template_id": null
+      },
+      {
+        "id": "eff49ef1-a915-4c7b-8acb-ceccc044e6d0",
+        "content": "目前我还需要优化一个ai应用，后端有一些接口问题需要调试",
+        "deadline": "",
+        "estimated_hours": 1.0,
+        "priority": "medium",
+        "scenario": "side-project",
+        "status": "pending",
+        "parent_id": null,
+        "created_at": "2026-05-09T05:17:55.242748",
+        "updated_at": "2026-05-09T05:17:55.242748",
+        "completed_at": null,
+        "recurring_task_id": null,
+        "template_id": null
+      },
+      {
+        "id": "d5b306bc-95c4-46cc-a552-3f38d8eaaf3e",
+        "content": "我这个月必须要学会集成项目管理中级软考",
+        "deadline": "",
+        "estimated_hours": 1.0,
+        "priority": "urgent",
+        "scenario": "study",
+        "status": "pending",
+        "parent_id": null,
+        "created_at": "2026-05-12T03:47:12.625261",
+        "updated_at": "2026-05-12T03:47:12.625261",
+        "completed_at": null,
+        "recurring_task_id": null,
+        "template_id": null
+      }
+    ],
+    "subtasks": [
+      {
+        "id": "c0142580-8948-4a1a-858c-f63c89e989d0",
+        "task_id": "6f5584e8-5018-4f66-b190-cc9793fddbe8",
+        "content": "准备任务",
+        "completed": 0,
+        "created_at": "2026-05-09T03:20:56.283003",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "100c1086-809f-488f-ba83-3c4948a68671",
+        "task_id": "6f5584e8-5018-4f66-b190-cc9793fddbe8",
+        "content": "执行任务",
+        "completed": 0,
+        "created_at": "2026-05-09T03:20:56.304991",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "feb6c77b-1b8a-4941-9676-3057012b1461",
+        "task_id": "6f5584e8-5018-4f66-b190-cc9793fddbe8",
+        "content": "检查结果",
+        "completed": 0,
+        "created_at": "2026-05-09T03:20:56.345935",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "f31e037c-1d61-42c5-adf6-dfbdf4f60ad3",
+        "task_id": "6f5584e8-5018-4f66-b190-cc9793fddbe8",
+        "content": "准备任务",
+        "completed": 0,
+        "created_at": "2026-05-09T03:20:57.786509",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "22353dbb-7c95-413f-813c-8b5bdb5814de",
+        "task_id": "6f5584e8-5018-4f66-b190-cc9793fddbe8",
+        "content": "执行任务",
+        "completed": 0,
+        "created_at": "2026-05-09T03:20:57.845573",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "d5b9c507-9174-4e34-b6e9-d3f95c0dd798",
+        "task_id": "6f5584e8-5018-4f66-b190-cc9793fddbe8",
+        "content": "检查结果",
+        "completed": 0,
+        "created_at": "2026-05-09T03:20:57.863624",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "d159d061-7b62-4f90-a420-09b46d5e1331",
+        "task_id": "6f5584e8-5018-4f66-b190-cc9793fddbe8",
+        "content": "准备任务",
+        "completed": 0,
+        "created_at": "2026-05-09T03:20:58.590039",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "199c7246-2882-4ffa-949d-6536086cc998",
+        "task_id": "6f5584e8-5018-4f66-b190-cc9793fddbe8",
+        "content": "执行任务",
+        "completed": 0,
+        "created_at": "2026-05-09T03:20:58.622412",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "d0634798-b81e-47d8-bcb4-546f738d17b5",
+        "task_id": "6f5584e8-5018-4f66-b190-cc9793fddbe8",
+        "content": "检查结果",
+        "completed": 0,
+        "created_at": "2026-05-09T03:20:58.638311",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "bdb93d86-2f23-42f1-954c-dd7a19fe9410",
+        "task_id": "6f5584e8-5018-4f66-b190-cc9793fddbe8",
+        "content": "准备任务",
+        "completed": 0,
+        "created_at": "2026-05-09T03:20:58.818928",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "7f7cc3be-1f57-4d3b-a117-344cb4438f47",
+        "task_id": "6f5584e8-5018-4f66-b190-cc9793fddbe8",
+        "content": "执行任务",
+        "completed": 0,
+        "created_at": "2026-05-09T03:20:58.842669",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "12144af7-2120-4bbd-82c1-d3d05273e3dd",
+        "task_id": "6f5584e8-5018-4f66-b190-cc9793fddbe8",
+        "content": "检查结果",
+        "completed": 0,
+        "created_at": "2026-05-09T03:20:58.858717",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "8765d8b5-13a5-4847-84da-0ffd9a8e70a1",
+        "task_id": "296a1021-0aa1-4ff2-9b07-e5b4e27d71fd",
+        "content": "准备任务",
+        "completed": 0,
+        "created_at": "2026-05-09T03:23:49.615049",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "0dafb8c8-c439-45a7-a0b2-eb57ac14b322",
+        "task_id": "296a1021-0aa1-4ff2-9b07-e5b4e27d71fd",
+        "content": "执行任务",
+        "completed": 0,
+        "created_at": "2026-05-09T03:23:49.633226",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "92b85ccd-4894-492e-9f0b-f215fe2df72b",
+        "task_id": "296a1021-0aa1-4ff2-9b07-e5b4e27d71fd",
+        "content": "检查结果",
+        "completed": 0,
+        "created_at": "2026-05-09T03:23:49.648114",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "7de16abb-1511-4cda-b8d3-bcf295d03512",
+        "task_id": "14b49ab8-7ec1-40ec-a59f-b53a33bb7e7b",
+        "content": "阅读机器学习基础概念文档",
+        "completed": 0,
+        "created_at": "2026-05-09T04:33:25.273454",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "37897956-620a-4e2d-92da-5b1bfa360fac",
+        "task_id": "14b49ab8-7ec1-40ec-a59f-b53a33bb7e7b",
+        "content": "完成在线机器学习课程的前两节内容",
+        "completed": 0,
+        "created_at": "2026-05-09T04:33:25.311391",
+        "estimated_hours": 1.0
+      },
+      {
+        "id": "bbd189d3-04d9-4f4f-b991-1207b5bb3824",
+        "task_id": "14b49ab8-7ec1-40ec-a59f-b53a33bb7e7b",
+        "content": "练习至少一个简单的机器学习算法",
+        "completed": 0,
+        "created_at": "2026-05-09T04:33:25.334956",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "5cb6fcc9-1d12-48f0-b68a-0a3c16272f2f",
+        "task_id": "14b49ab8-7ec1-40ec-a59f-b53a33bb7e7b",
+        "content": "阅读一篇机器学习相关的研究论文或案例研究",
+        "completed": 0,
+        "created_at": "2026-05-09T04:33:25.358648",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "5b264142-9629-4231-9796-e05a4822e5ff",
+        "task_id": "14b49ab8-7ec1-40ec-a59f-b53a33bb7e7b",
+        "content": "总结学习内容,制作思维导图或笔记",
+        "completed": 0,
+        "created_at": "2026-05-09T04:33:25.384957",
+        "estimated_hours": 1.0
+      },
+      {
+        "id": "6c55f06c-7703-4ae6-8a1f-65502fde1a1b",
+        "task_id": "eff49ef1-a915-4c7b-8acb-ceccc044e6d0",
+        "content": "检查并修复接口响应错误处理逻辑",
+        "completed": 0,
+        "created_at": "2026-05-09T05:18:16.232430",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "dcd3a4f4-8c0b-43a9-b6a8-8667ddf04e65",
+        "task_id": "eff49ef1-a915-4c7b-8acb-ceccc044e6d0",
+        "content": "优化接口性能,减少响应时间",
+        "completed": 0,
+        "created_at": "2026-05-09T05:18:16.275667",
+        "estimated_hours": 1.0
+      },
+      {
+        "id": "d67925e6-86cc-4f64-a5e6-de570c29b063",
+        "task_id": "eff49ef1-a915-4c7b-8acb-ceccc044e6d0",
+        "content": "进行接口安全检查,防止潜在攻击",
+        "completed": 0,
+        "created_at": "2026-05-09T05:18:16.303068",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "2ba7c19a-f0bb-43a4-96ec-3bd352bfbeb8",
+        "task_id": "eff49ef1-a915-4c7b-8acb-ceccc044e6d0",
+        "content": "编写单元测试确保接口功能正常",
+        "completed": 0,
+        "created_at": "2026-05-09T05:18:16.334557",
+        "estimated_hours": 1.0
+      },
+      {
+        "id": "f0111b9a-b89a-48c9-a323-15fa7ebb66b3",
+        "task_id": "eff49ef1-a915-4c7b-8acb-ceccc044e6d0",
+        "content": "记录调试过程,编写调试报告",
+        "completed": 0,
+        "created_at": "2026-05-09T05:18:16.362721",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "47896de1-4831-4cdc-a566-ec1296404d5a",
+        "task_id": "eff49ef1-a915-4c7b-8acb-ceccc044e6d0",
+        "content": "与前端团队沟通接口优化结果,确保兼容性",
+        "completed": 0,
+        "created_at": "2026-05-09T05:18:16.393830",
+        "estimated_hours": 1.0
+      },
+      {
+        "id": "0c956806-ab14-457c-a420-97750536a856",
+        "task_id": "d5b306bc-95c4-46cc-a552-3f38d8eaaf3e",
+        "content": "明确需求和目标",
+        "completed": 0,
+        "created_at": "2026-05-12T03:47:35.415657",
+        "estimated_hours": 0.25
+      },
+      {
+        "id": "dbe231e5-d04d-47c5-901d-6e51d9e3b8aa",
+        "task_id": "d5b306bc-95c4-46cc-a552-3f38d8eaaf3e",
+        "content": "分析和拆解问题",
+        "completed": 0,
+        "created_at": "2026-05-12T03:47:35.455608",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "64aa9fe0-c778-4492-b2c8-2332e029a28f",
+        "task_id": "d5b306bc-95c4-46cc-a552-3f38d8eaaf3e",
+        "content": "制定执行计划",
+        "completed": 0,
+        "created_at": "2026-05-12T03:47:35.478093",
+        "estimated_hours": 0.25
+      },
+      {
+        "id": "884c4d3d-b5bf-45f5-85f2-3111f4995c1e",
+        "task_id": "d5b306bc-95c4-46cc-a552-3f38d8eaaf3e",
+        "content": "实施和解决问题",
+        "completed": 0,
+        "created_at": "2026-05-12T03:47:35.502674",
+        "estimated_hours": 1.5
+      },
+      {
+        "id": "3d52d888-2996-4c87-8b6e-fe4e29f15d43",
+        "task_id": "d5b306bc-95c4-46cc-a552-3f38d8eaaf3e",
+        "content": "检查和优化结果",
+        "completed": 0,
+        "created_at": "2026-05-12T03:47:35.527788",
+        "estimated_hours": 0.5
+      },
+      {
+        "id": "d8e0cc79-ecb3-4ee6-b80e-24d74c37be4e",
+        "task_id": "d5b306bc-95c4-46cc-a552-3f38d8eaaf3e",
+        "content": "总结和汇报",
+        "completed": 0,
+        "created_at": "2026-05-12T03:47:35.551524",
+        "estimated_hours": 0.25
+      }
+    ],
+    "task_logs": [
+      {
+        "id": "fe11bf65-5c50-43ff-b77a-f23f5981369b",
+        "task_id": "02f7fce2-ca1d-4639-8aa5-9718908bd7a4",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T03:07:11.833408"
+      },
+      {
+        "id": "31f91a54-3499-4c8b-b45f-93cdacdb6b41",
+        "task_id": "6f5584e8-5018-4f66-b190-cc9793fddbe8",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T03:20:41.754936"
+      },
+      {
+        "id": "ac140f3f-0440-44f2-a704-770d58ab113d",
+        "task_id": "6f5584e8-5018-4f66-b190-cc9793fddbe8",
+        "action": "status_changed",
+        "old_value": "completed",
+        "new_value": "completed",
+        "timestamp": "2026-05-09T03:20:59.481965"
+      },
+      {
+        "id": "142620fa-28e1-4e53-b070-918aa8c76cbb",
+        "task_id": "96e2ac2a-1c98-4985-8877-c118cad1ce01",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T03:23:01.241566"
+      },
+      {
+        "id": "67481bb3-c79a-44a9-9fea-aacf4a0eedde",
+        "task_id": "296a1021-0aa1-4ff2-9b07-e5b4e27d71fd",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T03:23:44.499415"
+      },
+      {
+        "id": "72d20e5d-fbc6-43bf-9ce1-63937873c6e1",
+        "task_id": "296a1021-0aa1-4ff2-9b07-e5b4e27d71fd",
+        "action": "status_changed",
+        "old_value": "completed",
+        "new_value": "completed",
+        "timestamp": "2026-05-09T03:23:50.977666"
+      },
+      {
+        "id": "22198095-83a6-4bd4-9b06-1816fb934471",
+        "task_id": "fe5bcc7b-aa97-486d-8bb5-17bb87679793",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T03:31:19.353967"
+      },
+      {
+        "id": "20ad0e62-bdd6-44ac-8b61-e1da637c4acd",
+        "task_id": "cf898847-ce98-4e19-8685-521ed74bacf0",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T03:47:32.555077"
+      },
+      {
+        "id": "b2d96b46-c75c-4da4-9e85-c4ed326935c4",
+        "task_id": "210e8f60-14d2-4c26-9b84-328e8b620c32",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T04:06:16.665454"
+      },
+      {
+        "id": "241691b9-61a4-46fd-be9a-a1318fdf2345",
+        "task_id": "77d74d75-1724-4343-a283-6e30fe14babf",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T04:06:45.451562"
+      },
+      {
+        "id": "95299cc7-c46e-4af2-80d8-1468a68e5b62",
+        "task_id": "4eab62ad-82aa-44f2-9656-88d13bd0d499",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T04:06:45.497833"
+      },
+      {
+        "id": "0103ed28-3d86-4db3-a211-bd10a5167a5d",
+        "task_id": "9b3fdfc4-ab86-40de-8449-e39e8d79370d",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T04:06:45.560436"
+      },
+      {
+        "id": "5a972d81-17c8-4cb9-986d-2d251a085499",
+        "task_id": "56bc8d83-7beb-4425-97f7-6446419bae85",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T04:08:02.687936"
+      },
+      {
+        "id": "de8b6954-e1fd-4ea6-b6a5-81f43c71963e",
+        "task_id": "c14959ee-01f5-4c03-ac00-8754a00f2fbf",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T04:08:02.736884"
+      },
+      {
+        "id": "5ba9ef8e-82a9-4d62-8110-db8a8abd0d5c",
+        "task_id": "281ae26a-3348-47db-9ad6-13b2b0667d43",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T04:08:02.773155"
+      },
+      {
+        "id": "f205926e-e5d0-4fa9-81d1-318043d7172c",
+        "task_id": "2fd88904-65c9-46a9-be13-91bad1b68222",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T04:09:18.438576"
+      },
+      {
+        "id": "59ce053e-77f1-4efe-9292-50a34c4ddd00",
+        "task_id": "b5fdc3a5-41eb-4cd3-b519-17be608b339d",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T04:09:21.188080"
+      },
+      {
+        "id": "6b94c54a-9823-4dc6-a100-bb2f04a6c12a",
+        "task_id": "97390d79-1e8c-43c6-9eaf-2a594b6abab4",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T04:09:23.230879"
+      },
+      {
+        "id": "cecdb031-2f54-4b33-9742-5d674031d5ca",
+        "task_id": "ecb5edee-c3b5-4eec-9f71-457a76f667cd",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T04:12:00.600804"
+      },
+      {
+        "id": "3f74449d-4220-43db-971c-d9657892287d",
+        "task_id": "e587a8cd-d1e9-48d5-ba51-21995bf5d48a",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T04:19:02.768193"
+      },
+      {
+        "id": "1aaeae99-59a4-492a-b8ad-e987054016ae",
+        "task_id": "14b49ab8-7ec1-40ec-a59f-b53a33bb7e7b",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T04:20:36.727365"
+      },
+      {
+        "id": "c18bc544-5799-41bd-9e4d-4c896bda9187",
+        "task_id": "97390d79-1e8c-43c6-9eaf-2a594b6abab4",
+        "action": "status_changed",
+        "old_value": "completed",
+        "new_value": "completed",
+        "timestamp": "2026-05-09T04:21:34.103633"
+      },
+      {
+        "id": "f526dbc5-e6a2-4da1-9d35-e04f7fae04ab",
+        "task_id": "ecb5edee-c3b5-4eec-9f71-457a76f667cd",
+        "action": "status_changed",
+        "old_value": "completed",
+        "new_value": "completed",
+        "timestamp": "2026-05-09T04:21:38.019889"
+      },
+      {
+        "id": "4c9df2c7-147c-4521-944c-ab633b4c9923",
+        "task_id": "8e8c39b0-e258-4252-9049-d237aa156d13",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T04:25:14.758103"
+      },
+      {
+        "id": "97ede553-89a4-48e8-a012-ecc5189f744a",
+        "task_id": "16478392-b17c-4703-9489-448573e42c57",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T05:14:01.089736"
+      },
+      {
+        "id": "4df01d6c-5900-4d10-aae4-5ab05a23bd82",
+        "task_id": "150c1ef9-2d3b-4f47-9c4f-a430b8632b7d",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T05:15:09.180160"
+      },
+      {
+        "id": "c7181c6f-aa00-43b2-98c0-d9b3c90919a6",
+        "task_id": "eff49ef1-a915-4c7b-8acb-ceccc044e6d0",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-09T05:17:55.253098"
+      },
+      {
+        "id": "7cfc4fe3-2c3d-449a-852c-bd472c77ceca",
+        "task_id": "14b49ab8-7ec1-40ec-a59f-b53a33bb7e7b",
+        "action": "status_changed",
+        "old_value": "completed",
+        "new_value": "completed",
+        "timestamp": "2026-05-12T03:45:29.682275"
+      },
+      {
+        "id": "6a84425d-84df-4a2a-9481-486a2512b78e",
+        "task_id": "d5b306bc-95c4-46cc-a552-3f38d8eaaf3e",
+        "action": "created",
+        "old_value": null,
+        "new_value": "pending",
+        "timestamp": "2026-05-12T03:47:12.627395"
+      }
+    ],
+    "reviews": [],
+    "settings": [
+      {
+        "id": "default",
+        "work_start": "09:00",
+        "work_end": "18:00",
+        "reminder_advance": "[30, 60]",
+        "notifications_enabled": 1,
+        "custom_scenarios": "[\"work\",\"study\",\"life\",\"side-project\",\"social\"]",
+        "updated_at": "2026-05-10T04:57:20.981073",
+        "email_enabled": 0,
+        "email_smtp_host": null,
+        "email_smtp_port": 587,
+        "email_username": null,
+        "email_password": null,
+        "email_from": null,
+        "email_to": null,
+        "pomodoro_work": 25,
+        "pomodoro_short_break": 5,
+        "pomodoro_long_break": 15,
+        "pomodoro_sessions": 4
+      }
+    ],
+    "tags": [
+      {
+        "id": "d872bdc5-4c4e-44c3-9ee4-b3c7200833d5",
+        "name": "学习",
+        "color": "#d946ef",
+        "created_at": "2026-05-09 20:23:31"
+      },
+      {
+        "id": "acc8cfc7-e7a6-4ec0-9a31-771e50058c1b",
+        "name": "工作",
+        "color": "#6366f1",
+        "created_at": "2026-05-09 20:23:39"
+      },
+      {
+        "id": "c59b3d06-29f5-4d86-8ff8-a21607317fc7",
+        "name": "生活",
+        "color": "#ec4899",
+        "created_at": "2026-05-09 20:23:53"
+      }
+    ],
+    "task_tags": [],
+    "categories": [
+      {
+        "id": "fd29d5d5-2d2a-4d2e-8158-3d232338f993",
+        "name": "AI算法",
+        "icon": "folder",
+        "color": "#1e40af",
+        "sort_order": 0,
+        "created_at": "2026-05-09 20:43:16"
+      },
+      {
+        "id": "fe6c9711-763e-46c0-9cc0-58bfad05143c",
+        "name": "生活",
+        "icon": "folder",
+        "color": "#9f1239",
+        "sort_order": 0,
+        "created_at": "2026-05-09 20:43:31"
+      },
+      {
+        "id": "1c0157a6-defc-4a52-aa98-ed60bc2cdebd",
+        "name": "生活",
+        "icon": "folder",
+        "color": "#4c1d95",
+        "sort_order": 0,
+        "created_at": "2026-05-09 20:43:39"
+      }
+    ],
+    "time_logs": [],
+    "recurring_tasks": [],
+    "task_templates": [],
+    "okrs": [],
+    "key_results": [],
+    "task_okrs": [],
+    "task_dependencies": [],
+    "backups": [],
+    "chat_conversations": [
+      {
+        "id": "f75f0164-e75c-4340-b8b0-7e73eb3680f1",
+        "title": "我今日任务有什么",
+        "created_at": "2026-05-12T04:23:36.423382",
+        "updated_at": "2026-05-12T04:23:36.508813",
+        "pinned": 0
+      },
+      {
+        "id": "5ba906e0-7df2-40fa-9070-f84b739dc8d4",
+        "title": "我今日任务有什么",
+        "created_at": "2026-05-12T04:24:44.124553",
+        "updated_at": "2026-05-12T04:24:44.216552",
+        "pinned": 0
+      }
+    ],
+    "chat_messages": [
+      {
+        "id": "2810adcc-1235-4d5a-9fa3-3445b69762db",
+        "conversation_id": "f75f0164-e75c-4340-b8b0-7e73eb3680f1",
+        "role": "user",
+        "content": "我今日任务有什么",
+        "created_at": "2026-05-12T04:23:36.475078"
+      },
+      {
+        "id": "75257484-0476-45e5-8ee1-3115c0f0c5d7",
+        "conversation_id": "f75f0164-e75c-4340-b8b0-7e73eb3680f1",
+        "role": "assistant",
+        "content": "我理解你说的是：\"我今日任务有什么\"\n\n作为你的任务管理助手，我可以帮你：\n- 创建相关任务\n- 分析时间安排\n- 提供执行建议\n\n需要我帮你做什么具体的事情吗？",
+        "created_at": "2026-05-12T04:23:36.508813"
+      },
+      {
+        "id": "f606ad1e-f981-469d-a277-2f150068c28e",
+        "conversation_id": "5ba906e0-7df2-40fa-9070-f84b739dc8d4",
+        "role": "user",
+        "content": "我今日任务有什么",
+        "created_at": "2026-05-12T04:24:44.182523"
+      },
+      {
+        "id": "eb66f40a-8d48-42f1-8839-313d039cd703",
+        "conversation_id": "5ba906e0-7df2-40fa-9070-f84b739dc8d4",
+        "role": "assistant",
+        "content": "我理解你说的是：\"我今日任务有什么\"\n\n作为你的任务管理助手，我可以帮你：\n- 创建相关任务\n- 分析时间安排\n- 提供执行建议\n\n需要我帮你做什么具体的事情吗？",
+        "created_at": "2026-05-12T04:24:44.216552"
+      }
+    ],
+    "task_memory": [],
+    "user_profile": []
+  }
+}

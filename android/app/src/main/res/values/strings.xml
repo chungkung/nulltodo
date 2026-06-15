@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">NullTodo</string>
+    <string name="title_activity_main">NullTodo</string>
+    <string name="package_name">com.nulltodo.app</string>
+    <string name="custom_url_scheme">com.nulltodo.app</string>
+</resources>
