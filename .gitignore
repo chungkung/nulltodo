@@ -1,0 +1,102 @@
+# Dependencies
+node_modules/
+api/venv/
+api/__pycache__/
+api/**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Build outputs
+dist/
+build/
+release/
+*.egg-info/
+android/app/build/
+android/.gradle/
+android/build/
+android/capacitor-cordova-android-plugins/build/
+harmony/**/build/
+harmony/**/node_modules/
+
+# Electron
+electron/dist/
+electron/node_modules/
+electron/.env
+electron/*.log
+
+# Capacitor
+android/local.properties
+android/.idea/
+android/captures/
+android/.externalNativeBuild/
+ios/.DS_Store
+ios/Pods/
+ios/App/build/
+ios/App/Pods/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+api/*.db
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+
+# Capacitor generated files
+android/capacitor.settings.gradle
+android/app/src/main/assets/public/
+android/capacitor-cordova-android-plugins/src/main/assets/
+android/capacitor-cordova-android-plugins/cordova.variables.gradle
+ios/App/App/config.xml
+ios/App/App/Info.plist
+
+# HarmonyOS
+harmony/**/oh_modules/
+harmony/**/.preview/
+harmony/**/build/
+
+# Misc
+*.bak
+*.backup
+*.old

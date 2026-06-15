@@ -1,0 +1,48 @@
+{
+  "name": "nulltodo-desktop",
+  "version": "1.0.0",
+  "description": "NullTodo - 智能任务管理桌面应用",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npm run build-web && electron-builder",
+    "build-web": "cd .. && npm run build:fast",
+    "build:win": "npm run build-web && electron-builder --win",
+    "dist": "electron-builder"
+  },
+  "keywords": ["todo", "task", "management"],
+  "author": "NullTodo Team",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.0.0"
+  },
+  "build": {
+    "appId": "com.nulltodo.desktop",
+    "productName": "NullTodo",
+    "directories": {
+      "output": "../release"
+    },
+    "files": [
+      "main.js",
+      "index.html",
+      "assets/**/*",
+      "sw.js"
+    ],
+    "asar": false,
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  }
+}
