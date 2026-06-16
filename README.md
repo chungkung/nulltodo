@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/screenshots/home.png" alt="NullTodo Banner" width="100%"/>
+![NullTodo Banner](docs/screenshots/home.png)
 
 # NullTodo
 
@@ -43,41 +43,31 @@
 
 输入"明天下午3点完成报告，2小时"，自动解析时间、优先级、场景。
 
-<div align="center">
-  <img src="docs/screenshots/tasks.png" alt="任务管理 - AI自然语言输入" width="90%"/>
-</div>
+![AI自然语言输入](docs/screenshots/tasks.png)
 
 ### 📊 智能首页
 
 今日任务一目了然，统计数据实时更新。
 
-<div align="center">
-  <img src="docs/screenshots/home.png" alt="智能首页" width="90%"/>
-</div>
+![智能首页](docs/screenshots/home.png)
 
 ### 📅 日程视图
 
 周历视图直观展示任务安排，轻松规划每一天。
 
-<div align="center">
-  <img src="docs/screenshots/schedule.png" alt="日程视图" width="90%"/>
-</div>
+![日程视图](docs/screenshots/schedule.png)
 
 ### 📈 复盘分析
 
 自动分析任务完成情况，生成优化建议。
 
-<div align="center">
-  <img src="docs/screenshots/review.png" alt="复盘报告" width="90%"/>
-</div>
+![复盘报告](docs/screenshots/review.png)
 
 ### ⚙️ 个性化设置
 
 深色模式、缓存清理、版本管理，打造专属体验。
 
-<div align="center">
-  <img src="docs/screenshots/settings.png" alt="设置页面" width="90%"/>
-</div>
+![设置页面](docs/screenshots/settings.png)
 
 ### 🚀 更多强大功能
 
@@ -102,11 +92,7 @@
 
 ### 🖥️ Windows 桌面应用（推荐）
 
-<div align="center">
-  <a href="https://github.com/chungkung/nulltodo/releases/latest">
-    <img src="https://img.shields.io/badge/下载-Windows%20桌面版-0078D6?style=for-the-badge&logo=windows" alt="Download for Windows"/>
-  </a>
-</div>
+**[📥 下载 NullTodo v1.0.0 (Windows)](https://github.com/chungkung/nulltodo/releases/latest)**
 
 1. 下载最新版本的 [NullTodo Setup.exe](https://github.com/chungkung/nulltodo/releases/latest)
 2. 双击安装，运行即可
@@ -192,46 +178,13 @@ NullTodo 会自动分析你的任务完成情况：
 
 ## 🛠️ 技术栈
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="25%">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="60"/>
-        <br/>React 18
-      </td>
-      <td align="center" width="25%">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="60"/>
-        <br/>TypeScript
-      </td>
-      <td align="center" width="25%">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" width="60"/>
-        <br/>Vite
-      </td>
-      <td align="center" width="25%">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg" width="60"/>
-        <br/>Electron
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="60"/>
-        <br/>TailwindCSS
-      </td>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60"/>
-        <br/>Python Flask
-      </td>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="60"/>
-        <br/>SQLite
-      </td>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" width="60"/>
-        <br/>Capacitor
-      </td>
-    </tr>
-  </table>
-</div>
+| 技术 | 说明 | 技术 | 说明 |
+|------|------|------|------|
+| **React 18** | 用户界面库 | **TypeScript** | 类型安全 |
+| **Vite** | 构建工具 | **Electron** | 桌面应用 |
+| **TailwindCSS** | CSS 框架 | **Zustand** | 状态管理 |
+| **Python Flask** | 后端 API | **SQLite** | 本地数据库 |
+| **Capacitor** | 移动端 | **PWA** | 离线支持 |
 
 ---
 
